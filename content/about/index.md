@@ -1,5 +1,4 @@
 ---
-title: "Abot me"
 showDate: false
 summary: "Data Privacy for ACNH Guide App."
 draft: false
@@ -11,22 +10,14 @@ showReadingTime: false
 # externalUrl: "https://www.google.com"
 ---
 
-
-<center>
-{{< figure
-    src="disco_diffusion.png"
-    alt="AI generated artwork"
-    caption="AI generated art by [Disco Diffusion](https://github.com/alembics/disco-diffusion)."
-    class="center_scaled"
-    >}}
-</center>
-
-
 {{< lead >}}
-I'm a software developer, and I love to create things. I'm also a musician, and I love to create music. I'm a father, and I love to create memories with my family. I'm a husband, and I love to create a home with my wife. I'm a Christian, and I love to create a relationship with God. I'm a human, and I love to create a life that matters.
+I'm a software developer, and I love to create things.
+I'm incredible **curious**, highly **adaptable**, proudly **multicultural** and responsibly **pragmatic**.
 {{< /lead >}}
-## A Brief Bio
-(Copied from ruihao, TODO: Update xd)
+
+
+
+## About me
 Welcome! My name is Carlos. I grew up in [Guangdong, China](https://en.wikipedia.org/wiki/Guangdong). When I started my undergraduate study at [The University of Sydney](https://www.sydney.edu.au/) in 2013, I aspired to be a molecular biologist. I spent two quarters at [University of California San Diego (UCSD)](https://ucsd.edu/) as an exchange student in my second year, after which my academic interest gradually shifted to physics. In my final undergraduate year, I worked under the supervision of Dr. [Michael Schmidt](https://michael.cai-schmidt.org/) on [quantum corrections in left-right symmetric seesaw mechanisms](/files/Honours_Thesis.pdf), which are theoretical models for explaining neutrino masses. After that, I began to pursue my Ph.D. in physics at [Case Western Reserve University (CWRU)](https://case.edu/) in 2017. I spent the first two years working with Dr. [Pavel Fileviez Perez](https://fileviez.com/) on theories of leptophobic dark matter models. Starting from 2019, I have been working with Dr. [Shulei Zhang](https://physics.case.edu/faculty/shulei-zhang/) on charge and spin transport in topological quantum materials, especially topological semimetals. I make use of both analytical and numerical tools for my research, such as `Mathematica`, `Python`, `Julia`, etc. See my [research](/research/) for more details.
 
 Since late 2021, I have become more serious about one of my other passions, quantum computing. My main interests include exploring quantum machine learning as well as simulation of physical systems in the noisy intermediate-scale quantum (NISQ) era. I have been actively engaged in activities related to quantum computing, where I benefited a lot from getting exposed to cutting-edge research problems in both industry and academia, as well as interacting with experts and fellow students. Here are some highlights:
@@ -40,10 +31,8 @@ Since late 2021, I have become more serious about one of my other passions, quan
 - 08/22: I became a [Qiskit Advocate](https://www.credly.com/badges/53d49104-e640-4c64-a3ea-cd5557665499?source=linked_in_profile)!
 - 09/22: I was selected as a mentee for the [Qiskit Advocate Mentorship Program](https://github.com/qiskit-advocate/qamp-spring-22) and began working on [Qiskit QEC](https://github.com/qiskit-community/qiskit-qec).
 
-## Other Interests
-
-  <!-- - I occasionally contemplate quantitative finance with tools like [Zipline](https://github.com/quantrocket-llc/zipline) and [Moonshot](https://github.com/quantrocket-llc/moonshot). :chart_with_upwards_trend: -->
-  - Huge fan of basketball, the [NBA](https://www.nba.com/), and LeBron James :crown:
-  - Avid cook from time to time :shallow_pan_of_food:
-  - Animal videos all day :cat:
-  - Most of mechanical stuff :gear:
+{{< figure
+    src="profile.jpeg"
+    alt="Me with a dog"
+	class="center_scaled"
+    >}}

@@ -1,35 +1,33 @@
-<script src="https://utteranc.es/client.js"
-repo="cgutierr-zgz/cgutierr-zgz.github.io"
-issue-term="pathname"
-label="comment"
-theme="preferred-color-scheme"
-crossorigin="anonymous"
-async>
-</script>
+<div class="comments">
+    <script>
+        // load utteranc comment
+        var getTheme = window.localStorage && window.localStorage.getItem("theme");
+        getTheme = getTheme == null ? '{{$.Site.Params.defaultAppearance}}' : getTheme;
 
-<!--
-Themes:
-
-theme="github-light"
-theme="github-dark"
-theme="github-dark-orange"
-theme="icy-dark"
-theme="dark-blue"
-theme="photon-dark"
-theme="boxy-light"
-theme="gruvbox-dark"
-
--->
-
-<!-- {{ if .Params.showComment | default (.Site.Params.article.showComment | default true) }}
-    <div class="comment">
-        <script src="https://utteranc.es/client.js"
-        repo="cgutierr-zgz/cgutierr-zgz.github.io"
-        issue-term="pathname"
-        label="comment"
-        theme="gruvbox-dark"
-        crossorigin="anonymous"
-        async>
-        </script>
-    </div>
-{{ end }} -->
+        let theme = getTheme === 'dark' ? 'github-dark' : 'github-light';
+        let s = document.createElement('script');
+        s.src = 'https://utteranc.es/client.js';
+        s.setAttribute('repo', 'cgutierr-zgz/cgutierr-zgz.github.io');
+        s.setAttribute('issue-term', 'pathname');
+        s.setAttribute('theme', theme);
+        s.setAttribute('crossorigin', 'anonymous');
+        s.setAttribute('async', '');
+        s.setAttribute('theme', "github-light"); // TODO: change dinamicallly based on theme selected by user (light/dark)
+        document.querySelector('div.comments').innerHTML = '';
+        document.querySelector('div.comments').appendChild(s);
+		/*
+        const mutationObserver = new MutationObserver((mutationsList, observer) => {
+			console.log('1');
+            mutationsList.forEach(mutation => {
+				console.log(mutation);
+				if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+					let theme = mutation.target.classList.contains('dark') ? 'photon-dark' : 'github-light';
+					let utteranc = document.querySelector('iframe.utterances-frame');
+					utteranc.setAttribute('theme', theme);
+				}
+			});
+		});
+        mutationObserver.observe(document.body, { attributes: true });
+		*/
+    </script>
+</div>

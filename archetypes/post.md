@@ -12,6 +12,17 @@ showEdit: true
 
 <center>
 {{< figure
+    src="profile.jpeg"
+    alt="Me with a dog"
+    caption="Me with a dog [Disco Diffusion](https://github.com/alembics/disco-diffusion)."
+	class="center_scaled"
+    >}}
+</center>
+
+
+
+<center>
+{{< figure
     src="disco_diffusion.png"
     alt="AI generated artwork"
     caption="AI generated art by [Disco Diffusion](https://github.com/alembics/disco-diffusion)."
