@@ -10,6 +10,18 @@ showReadingTime: false
 # externalUrl: "https://www.google.com"
 ---
 
+<center>
+{{< figure
+    src="img/profile.jpeg"
+    alt="Me with a dog"
+    caption="Me with a dog :dog:"
+	class="center_scaled"
+	width="200"
+    >}}
+</center>
+
+
+<!--
 {{< lead >}}
 I'm a software developer, and I love to create things.
 I'm incredible **curious**, highly **adaptable**, proudly **multicultural** and responsibly **pragmatic**.
@@ -31,8 +43,4 @@ Since late 2021, I have become more serious about one of my other passions, quan
 - 08/22: I became a [Qiskit Advocate](https://www.credly.com/badges/53d49104-e640-4c64-a3ea-cd5557665499?source=linked_in_profile)!
 - 09/22: I was selected as a mentee for the [Qiskit Advocate Mentorship Program](https://github.com/qiskit-advocate/qamp-spring-22) and began working on [Qiskit QEC](https://github.com/qiskit-community/qiskit-qec).
 
-{{< figure
-    src="profile.jpeg"
-    alt="Me with a dog"
-	class="center_scaled"
-    >}}
+-->
