@@ -1,6 +1,7 @@
 ---
+title: "About"
 showDate: false
-summary: "Data Privacy for ACNH Guide App."
+summary: "About me"
 draft: false
 showTableOfContents: false
 showEdit: false
@@ -10,22 +11,117 @@ showReadingTime: false
 # externalUrl: "https://www.google.com"
 ---
 
-<center>
-{{< figure
-    src="img/profile.jpeg"
-    alt="Me with a dog"
-    caption="Me with a dog :dog:"
-	class="center_scaled"
-	width="200"
-    >}}
-</center>
+
+{{<badge>}}
+New article!
+{{</badge>}}
+
+{{<alert>}}
+**Warning!** This action is destructive!
+{{</alert>}}
+
+{{<alert "twitter">}}
+Don't forget to [follow me](https://twitter.com/jpanther) on Twitter.
+{{</alert>}}
 
 
-<!--
-{{< lead >}}
+### Blockquote without attribution
+
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+> **Note** that you can use _Markdown syntax_ within a blockquote.
+
+
+Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> to end the session.
+
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+
+
+DevOps engineer at The Publicator
+Setup and maintenance of the infrastructure for both the Publicator music platform and the backend.
+
+
+
+
+Create a image with a text to the right
+
+<img src="/img/profile.jpeg" alt="About me" width="30%" style="border-radius: 10%; float: left; margin: 0 5% 0 0;">
+{{<lead>}}
+Hi :wave:, I'm **Carlos**
+{{</lead>}}
+
+I'm a **passionate** software developer from **Spain** mainly focused on **Mobile Development** and **DevOps**<br>
+I'm currently working as a **Flutter Developer** at [LeadTech](https://leadtech.com), and as a **DevOps Engineer** at [The Publicator](https://www.the-publicator.com/)
+And a NOVA member
+
+
+projects
+homies
+acnh, etc...
+
+Career
+
+
+{{<badge>}}
+2019 - Present
+{{</badge>}}**Flutter Developer** at [LeadTech](https://leadtech.com)
+
+<img src="/img/profile.jpeg" alt="About me" width="70px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+
+<kbd>2019 - Present</kbd><br>**Flutter Developer** · [LeadTech](https://leadtech.com)
+
+Texto explicando lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nunc, eget aliquet nunc nisl eget lorem. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nunc, eget aliquet nunc nisl eget lorem. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nunc, eget aliquet nunc nisl eget lorem. Donec auctor, nisl eget ultricies tincidunt, nunc nisl 
+<br>
+{{<skills>}}dart{{</skills>}}
+{{<skills>}}flutter{{</skills>}}
+{{<skills>}}devops{{</skills>}}
+
+
+
+
+<mark>2019 - Present</mark> **Flutter Developer** at [LeadTech](https://leadtech.com)
+
+Vanadis 2 games (explanation of the games) and photos
+
+ImaginaBienestar 2 games + videos moodle game + vr game unity
+
+Telefonica poca cosa xd
+
+Basf green zorro, proyectos etc, devops, data privacy, teacher
+
+LeadTech Flutter
+
+{{<lead>}}
+## My Projects
+{{</lead>}}
+
+### [Flutter Awesome](https://flutterawesome.com)
+
+{{<figure src="https://flutterawesome.com/images/logo.png" alt="Flutter Awesome" width="150" height="150" align="center">}}
+
+[Flutter Awesome](https://flutterawesome.com) is a curated list of awesome Flutter packages.
+
+{{<lead>}}
+## My skills
+{{</lead>}}
+
+{{<figure src="https://raw.githubusercontent.com/leerob/leerob.io/master/public/images/skills.png" alt="Skills" width="1000" height="600" align="center">}}
+
+{{<lead>}}
+## My stats
+{{</lead>}}
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=carlosmuvi&show_icons=true&theme=radical)](
+I'm currently working at [LeadTech](https://leadtech.com/) as Mobile Developer.
+
+{{<button href="/docs/cv.pdf" download="download" target="_self">}}
+Download cv
+{{</button>}}
+
+
+{{<lead>}}
 I'm a software developer, and I love to create things.
 I'm incredible **curious**, highly **adaptable**, proudly **multicultural** and responsibly **pragmatic**.
-{{< /lead >}}
+{{</lead>}}
 
 
 
@@ -43,4 +139,3 @@ Since late 2021, I have become more serious about one of my other passions, quan
 - 08/22: I became a [Qiskit Advocate](https://www.credly.com/badges/53d49104-e640-4c64-a3ea-cd5557665499?source=linked_in_profile)!
 - 09/22: I was selected as a mentee for the [Qiskit Advocate Mentorship Program](https://github.com/qiskit-advocate/qamp-spring-22) and began working on [Qiskit QEC](https://github.com/qiskit-community/qiskit-qec).
 
--->

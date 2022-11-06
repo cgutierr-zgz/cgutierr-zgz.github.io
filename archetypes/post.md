@@ -9,65 +9,86 @@ description: ""
 showEdit: true
 ---
 
+{{<badge>}}
+New article!
+{{</badge>}}
+
+{{<alert>}}
+**Warning!** This action is destructive!
+{{</alert>}}
+
+{{<alert "twitter">}}
+Don't forget to [follow me](https://twitter.com/jpanther) on Twitter.
+{{</alert>}}
+
+### Blockquote without attribution
+
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+> **Note** that you can use _Markdown syntax_ within a blockquote.
+
+
+Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> to end the session.
+
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
 <center>
-{{< figure
+{{<figure
     src="profile.jpeg"
     alt="Me with a dog"
     caption="Me with a dog [Disco Diffusion](https://github.com/alembics/disco-diffusion)."
 	class="center_scaled"
-    >}}
+   >}}
 </center>
 
 
 
 <center>
-{{< figure
+{{<figure
     src="disco_diffusion.png"
     alt="AI generated artwork"
     caption="AI generated art by [Disco Diffusion](https://github.com/alembics/disco-diffusion)."
     class="center_scaled"
-    >}}
+   >}}
 </center>
 
-{{< badge >}}
+{{<badge>}}
 New article!
-{{< /badge >}}
+{{</badge>}}
 
-{{< button href="#button" target="_self" >}}
+{{<button href="#button" target="_self">}}
 Call to action
-{{< /button >}}
-{{< badge >}}
+{{</button>}}
+{{<badge>}}
 New article!
-{{< /badge >}}
+{{</badge>}}
 
-{{< alert >}}
+{{<alert>}}
 **Warning!** This action is destructive!
-{{< /alert >}}
+{{</alert>}}
 
-{{< alert "twitter" >}}
+{{<alert "twitter">}}
 Don't forget to [follow me](https://twitter.com/jpanther) on Twitter.
-{{< /alert >}}
+{{</alert>}}
 
-{{< lead >}}
+{{<lead>}}
 A powerful, lightweight theme for Hugo built with Tailwind CSS.
-{{< /lead >}}
+{{</lead>}}
 
 
 
 
 
-{{< figure
+{{<figure
     src="squid.jpeg"
     alt="Abstract purple artwork"
     caption="Photo by [Jr Korpa](https://unsplash.com/@jrkorpa) on [Unsplash](https://unsplash.com/)"
-    >}}
+   >}}
 
 <!-- OR -->
 
 ![Abstract purple artwork](squid.jpeg "Photo by [Jr Korpa](https://unsplash.com/@jrkorpa) on [Unsplash](https://unsplash.com/)")
 
-{{< chart >}}
+{{<chart>}}
 type: 'bar',
 data: {
   labels: ['Tomato', 'Blueberry', 'Banana', 'Lime', 'Orange'],
@@ -76,7 +97,7 @@ data: {
     data: [12, 19, 3, 5, 2, 3],
   }]
 }
-{{< /chart >}}
+{{</chart>}}
 
 
 ```dart
@@ -88,26 +109,26 @@ void main(){
 Twitter
 This example uses the twitter_simple shortcode to output a Tweet. It requires two named parameters user and id.
 
-{{< twitter_simple user="DesignReviewed" id="1085870671291310081" >}}
+{{<twitter_simple user="DesignReviewed" id="1085870671291310081">}}
 
 Alternatively, the tweet shortcode can be used to embed a fully marked up Twitter card.
 
 ![Image](/favicon.ico)
 
-{{< highlight dark >}}
+{{<highlight dark>}}
 Highlighted text
-{{< /highlight >}}
+{{</highlight>}}
 
-{{< youtube w7Ft2ymGmfc >}}
-{{< tweet user="itspsneha" id="1588207388418404352" >}} <!--theme="dark"-->
-{{< vimeo 146022717 >}}
+{{<youtube w7Ft2ymGmfc>}}
+{{<tweet user="itspsneha" id="1588207388418404352">}} <!--theme="dark"-->
+{{<vimeo 146022717>}}
 
 
 Emoji is supported throughout Congo by default. Emoji can be used in titles, menu items and article content.
 
-{{< alert >}}
+{{<alert>}}
 **Note:** The rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack.
-{{< /alert >}}
+{{</alert>}}
 
 Emoji replacements are automatic throughout Congo, so you can use shorthand codes in your content and front matter and they will be converted to their corresponding symbols at build time.
 
@@ -116,7 +137,7 @@ Emoji replacements are automatic throughout Congo, so you can use shorthand code
 The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
 
 
-This is a demo site built entirely using Congo. It also contains a complete set of [theme documentation]({{< ref "posts" >}}). Congo is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.
+This is a demo site built entirely using Congo. It also contains a complete set of [theme documentation]({{<ref "posts">}}). Congo is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.
 
 Explore the [sample pages]("samples") to get a feel for what Congo can do. If you like what you see, check out the project on [Github](https://github.com/jpanther/congo) or read the [Installation guide](docs/installation) to get started.
 
@@ -125,61 +146,61 @@ Explore the [sample pages]("samples") to get a feel for what Congo can do. If yo
 
 | Icon name            | Preview                           |
 | -------------------- | --------------------------------- |
-| amazon               | {{< icon amazon >}}               |
-| apple                | {{< icon apple >}}                |
-| blogger              | {{< icon blogger >}}              |
-| bug                  | {{< icon bug >}}                  |
-| check                | {{< icon check >}}                |
-| circle-info          | {{< icon circle-info >}}          |
-| codepen              | {{< icon codepen >}}              |
-| comment              | {{< icon comment >}}              |
-| dev                  | {{< icon dev >}}                  |
-| dribbble             | {{< icon dribbble >}}             |
-| edit                 | {{< icon edit >}}                 |
-| email                | {{< icon email >}}                |
-| facebook             | {{< icon facebook >}}             |
-| flickr               | {{< icon flickr >}}               |
-| foursquare           | {{< icon foursquare >}}           |
-| github               | {{< icon github >}}               |
-| gitlab               | {{< icon gitlab >}}               |
-| google               | {{< icon google >}}               |
-| hashnode             | {{< icon hashnode >}}             |
-| instagram            | {{< icon instagram >}}            |
-| keybase              | {{< icon keybase >}}              |
-| kickstarter          | {{< icon kickstarter >}}          |
-| lastfm               | {{< icon lastfm >}}               |
-| lightbulb            | {{< icon lightbulb >}}            |
-| link                 | {{< icon link >}}                 |
-| linkedin             | {{< icon linkedin >}}             |
-| list                 | {{< icon list >}}                 |
-| mastodon             | {{< icon mastodon >}}             |
-| medium               | {{< icon medium >}}               |
-| microsoft            | {{< icon microsoft >}}            |
-| moon                 | {{< icon moon >}}                 |
-| orcid                | {{< icon orcid >}}                |
-| patreon              | {{< icon patreon >}}              |
-| pencil               | {{< icon pencil >}}               |
-| pinterest            | {{< icon pinterest >}}            |
-| reddit               | {{< icon reddit >}}               |
-| researchgate         | {{< icon researchgate >}}         |
-| search               | {{< icon search >}}               |
-| skull-crossbones     | {{< icon skull-crossbones >}}     |
-| slack                | {{< icon slack >}}                |
-| snapchat             | {{< icon snapchat >}}             |
-| soundcloud           | {{< icon soundcloud >}}           |
-| stack-overflow       | {{< icon stack-overflow >}}       |
-| steam                | {{< icon steam >}}                |
-| sun                  | {{< icon sun >}}                  |
-| tag                  | {{< icon tag >}}                  |
-| telegram             | {{< icon telegram >}}             |
-| tiktok               | {{< icon tiktok >}}               |
-| triangle-exclamation | {{< icon triangle-exclamation >}} |
-| tumblr               | {{< icon tumblr >}}               |
-| twitch               | {{< icon twitch >}}               |
-| twitter              | {{< icon twitter >}}              |
-| whatsapp             | {{< icon whatsapp >}}             |
-| xmark                | {{< icon xmark >}}                |
-| youtube              | {{< icon youtube >}}              |
+| amazon               | {{<icon amazon>}}               |
+| apple                | {{<icon apple>}}                |
+| blogger              | {{<icon blogger>}}              |
+| bug                  | {{<icon bug>}}                  |
+| check                | {{<icon check>}}                |
+| circle-info          | {{<icon circle-info>}}          |
+| codepen              | {{<icon codepen>}}              |
+| comment              | {{<icon comment>}}              |
+| dev                  | {{<icon dev>}}                  |
+| dribbble             | {{<icon dribbble>}}             |
+| edit                 | {{<icon edit>}}                 |
+| email                | {{<icon email>}}                |
+| facebook             | {{<icon facebook>}}             |
+| flickr               | {{<icon flickr>}}               |
+| foursquare           | {{<icon foursquare>}}           |
+| github               | {{<icon github>}}               |
+| gitlab               | {{<icon gitlab>}}               |
+| google               | {{<icon google>}}               |
+| hashnode             | {{<icon hashnode>}}             |
+| instagram            | {{<icon instagram>}}            |
+| keybase              | {{<icon keybase>}}              |
+| kickstarter          | {{<icon kickstarter>}}          |
+| lastfm               | {{<icon lastfm>}}               |
+| lightbulb            | {{<icon lightbulb>}}            |
+| link                 | {{<icon link>}}                 |
+| linkedin             | {{<icon linkedin>}}             |
+| list                 | {{<icon list>}}                 |
+| mastodon             | {{<icon mastodon>}}             |
+| medium               | {{<icon medium>}}               |
+| microsoft            | {{<icon microsoft>}}            |
+| moon                 | {{<icon moon>}}                 |
+| orcid                | {{<icon orcid>}}                |
+| patreon              | {{<icon patreon>}}              |
+| pencil               | {{<icon pencil>}}               |
+| pinterest            | {{<icon pinterest>}}            |
+| reddit               | {{<icon reddit>}}               |
+| researchgate         | {{<icon researchgate>}}         |
+| search               | {{<icon search>}}               |
+| skull-crossbones     | {{<icon skull-crossbones>}}     |
+| slack                | {{<icon slack>}}                |
+| snapchat             | {{<icon snapchat>}}             |
+| soundcloud           | {{<icon soundcloud>}}           |
+| stack-overflow       | {{<icon stack-overflow>}}       |
+| steam                | {{<icon steam>}}                |
+| sun                  | {{<icon sun>}}                  |
+| tag                  | {{<icon tag>}}                  |
+| telegram             | {{<icon telegram>}}             |
+| tiktok               | {{<icon tiktok>}}               |
+| triangle-exclamation | {{<icon triangle-exclamation>}} |
+| tumblr               | {{<icon tumblr>}}               |
+| twitch               | {{<icon twitch>}}               |
+| twitter              | {{<icon twitter>}}              |
+| whatsapp             | {{<icon whatsapp>}}             |
+| xmark                | {{<icon xmark>}}                |
+| youtube              | {{<icon youtube>}}              |
 
 
 This article offers a sample of basic Markdown formatting that can be used in Congo, also it shows how some basic HTML elements are decorated.
@@ -271,7 +292,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 
 ### Code block with Hugo's internal highlight shortcode
 
-{{< highlight html "linenos=table,hl_lines=4 7-9" >}}
+{{<highlight html "linenos=table,hl_lines=4 7-9">}}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -283,7 +304,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
   <p>Test</p>
 </body>
 </html>
-{{< /highlight >}}
+{{</highlight>}}
 
 ## List Types
 
@@ -330,7 +351,7 @@ The examples below are a small selection taken from the [official Mermaid docs](
 
 ## Flowchart
 
-{{< mermaid >}}
+{{<mermaid>}}
 graph TD
 A[Christmas] -->|Get money| B(Go shopping)
 B --> C{Let me think}
@@ -345,11 +366,11 @@ E
 F
 G
 end
-{{< /mermaid >}}
+{{</mermaid>}}
 
 ## Sequence diagram
 
-{{< mermaid >}}
+{{<mermaid>}}
 sequenceDiagram
 autonumber
 par Action 1
@@ -365,11 +386,11 @@ John-->>-Alice: I feel great!
 loop Every minute
 John-->Alice: Great!
 end
-{{< /mermaid >}}
+{{</mermaid>}}
 
 ## Class diagram
 
-{{< mermaid >}}
+{{<mermaid>}}
 classDiagram
 Animal "1" <|-- Duck
 Animal <|-- Fish
@@ -391,11 +412,11 @@ class Zebra{
 +bool is_wild
 +run()
 }
-{{< /mermaid >}}
+{{</mermaid>}}
 
 ## Entity relationship diagram
 
-{{< mermaid >}}
+{{<mermaid>}}
 erDiagram
 CUSTOMER }|..|{ DELIVERY-ADDRESS : has
 CUSTOMER ||--o{ ORDER : places
@@ -405,7 +426,7 @@ INVOICE ||--|{ ORDER : covers
 ORDER ||--|{ ORDER-ITEM : includes
 PRODUCT-CATEGORY ||--|{ PRODUCT : contains
 PRODUCT ||--o{ ORDER-ITEM : "ordered in"
-{{< /mermaid >}}
+{{</mermaid>}}
 
 
 Congo includes support for Chart.js using the `chart` shortcode. Simply wrap the chart markup within the shortcode. Congo automatically themes charts to match the configured `colorScheme` parameter, however the colours can be customised using normal Chart.js syntax.
@@ -417,7 +438,7 @@ The examples below are a small selection taken from the [official Chart.js docs]
 ## Bar chart
 
 <!-- prettier-ignore-start -->
-{{< chart >}}
+{{<chart>}}
 type: 'bar',
 data: {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -445,13 +466,13 @@ data: {
     borderWidth: 1
   }]
 }
-{{< /chart >}}
+{{</chart>}}
 <!-- prettier-ignore-end -->
 
 ## Line chart
 
 <!-- prettier-ignore-start -->
-{{< chart >}}
+{{<chart>}}
 type: 'line',
 data: {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -461,13 +482,13 @@ data: {
     tension: 0.2
   }]
 }
-{{< /chart >}}
+{{</chart>}}
 <!-- prettier-ignore-end -->
 
 ## Doughnut chart
 
 <!-- prettier-ignore-start -->
-{{< chart >}}
+{{<chart>}}
 type: 'doughnut',
 data: {
   labels: ['Red', 'Blue', 'Yellow'],
@@ -483,5 +504,5 @@ data: {
     hoverOffset: 4
   }]
 }
-{{< /chart >}}
+{{</chart>}}
 <!-- prettier-ignore-end -->

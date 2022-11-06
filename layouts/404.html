@@ -1,9 +1,16 @@
 {{ define "main" }}
-  <h1 class="mb-3 text-4xl font-extrabold">{{ i18n "error.404_title" | emojify }}</h1>
-  <p class="mt-8 mb-12 text-neutral-400 dark:text-neutral-500">
-    {{ i18n "error.404_error" | emojify }}
-  </p>
-  <div class="prose dark:prose-invert">
-    <p>{{ i18n "error.404_description" | emojify }}</p>
-  </div>
+<!-- center a container with 404 message -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="text-center">
+				<h1 class="mb-3 text-4xl font-extrabold">{{  "Oopsie doopsie" | emojify }}</h1>
+				<H1 class="mt-8 mb-12 text-neutral-400 dark:text-neutral-500">
+				  {{ i18n "error.404_error" | emojify }}
+				  <br>
+				  {{ "The page you are looking for does not exist  :disappointed_relieved:" | emojify }}
+				</p>
+			</div>
+		</div>
+	</div>
 {{ end }}

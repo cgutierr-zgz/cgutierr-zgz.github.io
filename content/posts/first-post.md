@@ -10,9 +10,9 @@ showAuthor: false
 # externalUrl: "https://www.google.com"
 ---
 
-{{< lead >}}
+{{<lead>}}
 I'm still learning how to use Hugo, but I'm getting there.
-{{< /lead >}}
+{{</lead>}}
 
 ```dart
 void main() {
