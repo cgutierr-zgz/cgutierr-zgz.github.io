@@ -1,11 +1,11 @@
 name: 🐛 Bug Report
-description: Report a new problem encountered using the Angular Platform
+description: Report a new problem encountered using the Web
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! Before proceeding, please check that a similar issue has not already been reported. [View open issues](https://github.com/The-Publicator/publicator/issues)
+        Thanks for taking the time to fill out this bug report!
 
   - type: textarea
     id: what-happened
