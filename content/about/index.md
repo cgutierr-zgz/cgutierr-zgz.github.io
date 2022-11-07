@@ -35,14 +35,14 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 **Mobile app development** using **Flutter** as the main framework and **Firebase** Remote config, analytics, crashlytics and functions
 
 <br>
-{{<skills>}}dart{{</skills>}}
-{{<skills>}}flutter{{</skills>}}
-{{<skills>}}bloc{{</skills>}}
-{{<skills>}}firebase{{</skills>}}
-{{<skills>}}node.js{{</skills>}}
-{{<skills>}}platform channels{{</skills>}}
-{{<skills>}}A/B Testing{{</skills>}}
-{{<skills>}}analytics{{</skills>}}
+{{<badge>}}dart{{</badge>}}
+{{<badge>}}flutter{{</badge>}}
+{{<badge>}}bloc{{</badge>}}
+{{<badge>}}firebase{{</badge>}}
+{{<badge>}}node.js{{</badge>}}
+{{<badge>}}platform channels{{</badge>}}
+{{<badge>}}A/B Testing{{</badge>}}
+{{<badge>}}analytics{{</badge>}}
 <br>
 
 ---
@@ -54,8 +54,8 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 **Setup** and **maintenance** of the infrastructure for both the Publicator music platform and the backend
 
 <br>
-{{<skills>}}CI/CD{{</skills>}}
-{{<skills>}}devops{{</skills>}}
+{{<badge>}}CI/CD{{</badge>}}
+{{<badge>}}devops{{</badge>}}
 <br>
 
 ---
@@ -76,13 +76,13 @@ Developed apps:
 - Pocket Guide
 
 <br>
-{{<skills>}}flutter{{</skills>}}
-{{<skills>}}dart{{</skills>}}
-{{<skills>}}bloc{{</skills>}}
-{{<skills>}}CI/CD{{</skills>}}
-{{<skills>}}devops{{</skills>}}
-{{<skills>}}data privacy{{</skills>}}
-{{<skills>}}firebase{{</skills>}}
+{{<badge>}}flutter{{</badge>}}
+{{<badge>}}dart{{</badge>}}
+{{<badge>}}bloc{{</badge>}}
+{{<badge>}}CI/CD{{</badge>}}
+{{<badge>}}devops{{</badge>}}
+{{<badge>}}data privacy{{</badge>}}
+{{<badge>}}firebase{{</badge>}}
 <br>
 
 ---
@@ -95,11 +95,11 @@ Development of the YoDA native mobile app in **Java/Kotlin**<br>
 The app eventually got switched to **Flutter** for Android, iOS, and Web
 
 <br>
-{{<skills>}}flutter{{</skills>}}
-{{<skills>}}dart{{</skills>}}
-{{<skills>}}android{{</skills>}}
-{{<skills>}}kotlin{{</skills>}}
-{{<skills>}}java{{</skills>}}
+{{<badge>}}flutter{{</badge>}}
+{{<badge>}}dart{{</badge>}}
+{{<badge>}}android{{</badge>}}
+{{<badge>}}kotlin{{</badge>}}
+{{<badge>}}java{{</badge>}}
 <br>
 
 ---
@@ -113,11 +113,11 @@ Fixing mobile application security vulnerabilities with **Ionic**<br>
 Creation and modifications of Portlets in **Liferay** with **Java**
 
 <br>
-{{<skills>}}ionic{{</skills>}}
-{{<skills>}}android{{</skills>}}
-{{<skills>}}kotlin{{</skills>}}
-{{<skills>}}liferay{{</skills>}}
-{{<skills>}}java{{</skills>}}
+{{<badge>}}ionic{{</badge>}}
+{{<badge>}}android{{</badge>}}
+{{<badge>}}kotlin{{</badge>}}
+{{<badge>}}liferay{{</badge>}}
+{{<badge>}}java{{</badge>}}
 <br>
 
 ---
@@ -133,12 +133,12 @@ Developed two games and several videos:
 - First Aids Course browser game for Moodle platform
 
 <br>
-{{<skills>}}unity3d{{</skills>}}
-{{<skills>}}c#{{</skills>}}
-{{<skills>}}maya{{</skills>}}
-{{<skills>}}zbrush{{</skills>}}
-{{<skills>}}photoshop{{</skills>}}
-{{<skills>}}substance painter{{</skills>}}
+{{<badge>}}unity3d{{</badge>}}
+{{<badge>}}c#{{</badge>}}
+{{<badge>}}maya{{</badge>}}
+{{<badge>}}zbrush{{</badge>}}
+{{<badge>}}photoshop{{</badge>}}
+{{<badge>}}substance painter{{</badge>}}
 <br>
 
 ---
@@ -154,10 +154,10 @@ Developed two mobile games:
 - The Pixel Adventure
 
 <br>
-{{<skills>}}unity3d{{</skills>}}
-{{<skills>}}c#{{</skills>}}
-{{<skills>}}maya{{</skills>}}
-{{<skills>}}photoshop{{</skills>}}
+{{<badge>}}unity3d{{</badge>}}
+{{<badge>}}c#{{</badge>}}
+{{<badge>}}maya{{</badge>}}
+{{<badge>}}photoshop{{</badge>}}
 <br>
 
 <br>
