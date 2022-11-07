@@ -5,18 +5,18 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
-colorScheme = "Congo" # valid values: Congo, Avocado, Fire, Ocean, Slate
+colorScheme = "congo"
 defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
 
-# mainSections = ["section1", "section2"]
+mainSections = ["samples"]
 # robots = ""
 
 [header]
-  layout = "hamburger" # valid options: basic, hamburger, custom
+  layout = "basic" # valid options: basic, hamburger, custom
 
 [footer]
   showCopyright = true
@@ -25,8 +25,8 @@ enableCodeCopy = true
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, custom
-  showRecent = false
+  layout = "custom" # valid options: page, profile, custom
+  showRecent = true
 
 [article]
   showDate = true
@@ -35,23 +35,22 @@ enableCodeCopy = true
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = true
-  editURL = "https://github.com/cgutierr-zgz/cgutierr-zgz.github.io/edit/main/content"
+  editURL = "https://github.com/jpanther/congo/tree/dev/exampleSite/content/"
   editAppendPath = true
   showHeadingAnchors = true
-  showPagination = false
+  showPagination = true
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = true
+  showTaxonomies = false
   showWordCount = false
-  showComments = true
+  showComments = false
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
-  hideSummary = true
 
 [list]
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = false
-  showTableOfContents = false
+  showTableOfContents = true
   groupByYear = false
 
 [sitemap]
@@ -69,4 +68,3 @@ enableCodeCopy = true
   # bing = ""
   # pinterest = ""
   # yandex = ""
-
