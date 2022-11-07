@@ -4,7 +4,7 @@
 		var getTheme = localStorage && localStorage.getItem("appearance")
 		getTheme = getTheme == null ? '{{$.Site.Params.defaultAppearance}}' : getTheme;
 		let theme = getTheme === 'dark' ? 'photon-dark' : 'github-light';
-		
+
 		// load utteranc comment
 		let s = document.createElement('script');
 		s.src = 'https://utteranc.es/client.js';

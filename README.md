@@ -38,6 +38,12 @@ hugo mod init github.com/<username>/<repo-name>
 hugo mod init my-project
 ```
 
+To [update](https://jpanther.github.io/congo/docs/installation/#update-using-hugo) the theme run:
+
+```sh
+hugo mod get -u
+```
+
 
 ## Favicon
 

@@ -12,130 +12,163 @@ showReadingTime: false
 ---
 
 
-{{<badge>}}
-New article!
-{{</badge>}}
-
-{{<alert>}}
-**Warning!** This action is destructive!
-{{</alert>}}
-
-{{<alert "twitter">}}
-Don't forget to [follow me](https://twitter.com/jpanther) on Twitter.
-{{</alert>}}
-
-
-### Blockquote without attribution
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-
-
-Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
-
-
-DevOps engineer at The Publicator
-Setup and maintenance of the infrastructure for both the Publicator music platform and the backend.
-
-
-
-
-Create a image with a text to the right
-
 <img src="/img/profile.jpeg" alt="About me" width="30%" style="border-radius: 10%; float: left; margin: 0 5% 0 0;">
 {{<lead>}}
-Hi :wave:, I'm **Carlos**
+Hi :wave:<br>
+I'm **Carlos**
 {{</lead>}}
 
-I'm a **passionate** software developer from **Spain** mainly focused on **Mobile Development** and **DevOps**<br>
-I'm currently working as a **Flutter Developer** at [LeadTech](https://leadtech.com), and as a **DevOps Engineer** at [The Publicator](https://www.the-publicator.com/)
-And a NOVA member
+I'm a **passionate** software developer from **Spain** mainly focused on **Mobile Development**
 
+## About me
 
-projects
-homies
-acnh, etc...
+I was born in [Zaragoza](https://en.wikipedia.org/wiki/Zaragoza), but I soon moved to [Madrid](https://en.wikipedia.org/wiki/Madrid). I started learning about programming as a kid, but I needed to figure out what I wanted to do with it. After high school, I decided to study Game Development at [CEV](https://www.cev.com) where I learned a lot about programming and game development, soon after, I started working as a Game Developer where I worked on some different projects, but I was not happy with the work I was doing. I decided to change my career and start learning **mobile development**. I started studying at [42](https://42.fr) and mobile development both at [CEV](https://www.cev.com) and on my own, where I learned a lot about programming and mobile development. Soon after I was able to land my first job in the industry, and since then I've been able to learn a lot and be part of some fantastic projects.
 
-Career
+I'm looking forward **collaborating** in **open source projects** and **sharing** my **knowledge** with the community.
 
+## Career
 
-{{<badge>}}
-2019 - Present
-{{</badge>}}**Flutter Developer** at [LeadTech](https://leadtech.com)
+<img src="/img/jobs/leadtech.jpeg" alt="LeadTech" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
-<img src="/img/profile.jpeg" alt="About me" width="70px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+<kbd>Aug 2022 - Present</kbd><br>**Flutter Developer** · [LeadTech](https://leadtech.com)
 
-<kbd>2019 - Present</kbd><br>**Flutter Developer** · [LeadTech](https://leadtech.com)
+**Mobile app development** using **Flutter** as the main framework and **Firebase** Remote config, analytics, crashlytics and functions
 
-Texto explicando lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nunc, eget aliquet nunc nisl eget lorem. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nunc, eget aliquet nunc nisl eget lorem. Donec auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nunc, eget aliquet nunc nisl eget lorem. Donec auctor, nisl eget ultricies tincidunt, nunc nisl 
 <br>
 {{<skills>}}dart{{</skills>}}
 {{<skills>}}flutter{{</skills>}}
+{{<skills>}}bloc{{</skills>}}
+{{<skills>}}firebase{{</skills>}}
+{{<skills>}}node.js{{</skills>}}
+{{<skills>}}platform channels{{</skills>}}
+{{<skills>}}A/B Testing{{</skills>}}
+{{<skills>}}analytics{{</skills>}}
+<br>
+
+---
+
+<img src="/img/jobs/publicator.jpeg" alt="The Publicator" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+
+<kbd>May 2022 - Present</kbd><br>**DevOps Engineer** · [The Publicator](https://the-publicator.com)
+
+**Setup** and **maintenance** of the infrastructure for both the Publicator music platform and the backend
+
+<br>
+{{<skills>}}CI/CD{{</skills>}}
 {{<skills>}}devops{{</skills>}}
+<br>
 
+---
 
+<img src="/img/jobs/basf.jpeg" alt="BASF" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
+<kbd>Aug 2021 - Aug 2022</kbd><br>**Flutter Developer** · [BASF](https://basf.com)
 
-<mark>2019 - Present</mark> **Flutter Developer** at [LeadTech](https://leadtech.com)
+**Flutter mobile development** at Mobile Apps & DevOps Solutions team<br>
+BASF Flutter component library development<br>
+**Data Privacy**, **OneTrust** consent implementation and support for mobile apps<br>
+Creation of **pipelines** for **Azure DevOps** and **GitHub**<br>
+**Flutter mentor** for the trainees<br>
+Developed apps:
+- greenZorro
+- Goods Movement
+- IdEPack
+- Pocket Guide
 
-Vanadis 2 games (explanation of the games) and photos
+<br>
+{{<skills>}}flutter{{</skills>}}
+{{<skills>}}dart{{</skills>}}
+{{<skills>}}bloc{{</skills>}}
+{{<skills>}}CI/CD{{</skills>}}
+{{<skills>}}devops{{</skills>}}
+{{<skills>}}data privacy{{</skills>}}
+{{<skills>}}firebase{{</skills>}}
+<br>
 
-ImaginaBienestar 2 games + videos moodle game + vr game unity
+---
 
-Telefonica poca cosa xd
+<img src="/img/jobs/yoda.jpeg" alt="YoDA" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
-Basf green zorro, proyectos etc, devops, data privacy, teacher
+<kbd>Feb 2021 - Aug 2021</kbd><br>**Freelance Mobile Developer** · [YoDA](https://yoda.agency)
 
-LeadTech Flutter
+Development of the YoDA native mobile app in **Java/Kotlin**<br>
+The app eventually got switched to **Flutter** for Android, iOS, and Web
 
-{{<lead>}}
-## My Projects
-{{</lead>}}
+<br>
+{{<skills>}}flutter{{</skills>}}
+{{<skills>}}dart{{</skills>}}
+{{<skills>}}android{{</skills>}}
+{{<skills>}}kotlin{{</skills>}}
+{{<skills>}}java{{</skills>}}
+<br>
 
-### [Flutter Awesome](https://flutterawesome.com)
+---
 
-{{<figure src="https://flutterawesome.com/images/logo.png" alt="Flutter Awesome" width="150" height="150" align="center">}}
+<img src="/img/jobs/telefonica.jpeg" alt="Telefónica" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
-[Flutter Awesome](https://flutterawesome.com) is a curated list of awesome Flutter packages.
+<kbd>Aug 2021 - Aug 2022</kbd><br>**Software Developer** · [Telefónica](https://telefonica.com)
 
-{{<lead>}}
-## My skills
-{{</lead>}}
+Native android development with **Kotlin**<br>
+Fixing mobile application security vulnerabilities with **Ionic**<br>
+Creation and modifications of Portlets in **Liferay** with **Java**
 
-{{<figure src="https://raw.githubusercontent.com/leerob/leerob.io/master/public/images/skills.png" alt="Skills" width="1000" height="600" align="center">}}
+<br>
+{{<skills>}}ionic{{</skills>}}
+{{<skills>}}android{{</skills>}}
+{{<skills>}}kotlin{{</skills>}}
+{{<skills>}}liferay{{</skills>}}
+{{<skills>}}java{{</skills>}}
+<br>
 
-{{<lead>}}
-## My stats
-{{</lead>}}
+---
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=carlosmuvi&show_icons=true&theme=radical)](
-I'm currently working at [LeadTech](https://leadtech.com/) as Mobile Developer.
+<img src="/img/jobs/ib.jpeg" alt="Imagina Bienestar" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
+<kbd>Jan 2019 - Jan 2020</kbd><br>**Unity Developer** · [Imagina Bienestar](https://imaginabienestar.com)
+
+**C#** Programming in **Unity**<br>
+**3D Modeling** with **Maya** and **ZBrush**, texturing with **Substance Painter**, and **Photoshop**<br>
+Developed two games and several videos:
+- Edificio Virtual VR Game
+- First Aids Course browser game for Moodle platform
+
+<br>
+{{<skills>}}unity3d{{</skills>}}
+{{<skills>}}c#{{</skills>}}
+{{<skills>}}maya{{</skills>}}
+{{<skills>}}zbrush{{</skills>}}
+{{<skills>}}photoshop{{</skills>}}
+{{<skills>}}substance painter{{</skills>}}
+<br>
+
+---
+
+<img src="/img/jobs/vanadis.jpeg" alt="Vanadis" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+
+<kbd>Mar 2016 - Jun 2016</kbd><br>**Unity Developer** · [Vanadis](https://vanadis.es)
+
+Development of **mobile app games** for **Android**<br>
+**C#** Programming in **Unity** and 3D Modeling with **Autodesk Maya**<br>
+Developed two mobile games:
+- Element Core
+- The Pixel Adventure
+
+<br>
+{{<skills>}}unity3d{{</skills>}}
+{{<skills>}}c#{{</skills>}}
+{{<skills>}}maya{{</skills>}}
+{{<skills>}}photoshop{{</skills>}}
+<br>
+
+<br>
 {{<button href="/docs/cv.pdf" download="download" target="_self">}}
 Download cv
 {{</button>}}
 
 
+_Might not be super up-to-date, for that, please refer to my [LinkedIn](https://www.linkedin.com/in/cgutierr) profile_
+
+
 {{<lead>}}
-I'm a software developer, and I love to create things.
-I'm incredible **curious**, highly **adaptable**, proudly **multicultural** and responsibly **pragmatic**.
+Feel free to contact me via [email](mailto:carlosgutimo.3d@gmail.com) :email:
 {{</lead>}}
-
-
-
-## About me
-Welcome! My name is Carlos. I grew up in [Guangdong, China](https://en.wikipedia.org/wiki/Guangdong). When I started my undergraduate study at [The University of Sydney](https://www.sydney.edu.au/) in 2013, I aspired to be a molecular biologist. I spent two quarters at [University of California San Diego (UCSD)](https://ucsd.edu/) as an exchange student in my second year, after which my academic interest gradually shifted to physics. In my final undergraduate year, I worked under the supervision of Dr. [Michael Schmidt](https://michael.cai-schmidt.org/) on [quantum corrections in left-right symmetric seesaw mechanisms](/files/Honours_Thesis.pdf), which are theoretical models for explaining neutrino masses. After that, I began to pursue my Ph.D. in physics at [Case Western Reserve University (CWRU)](https://case.edu/) in 2017. I spent the first two years working with Dr. [Pavel Fileviez Perez](https://fileviez.com/) on theories of leptophobic dark matter models. Starting from 2019, I have been working with Dr. [Shulei Zhang](https://physics.case.edu/faculty/shulei-zhang/) on charge and spin transport in topological quantum materials, especially topological semimetals. I make use of both analytical and numerical tools for my research, such as `Mathematica`, `Python`, `Julia`, etc. See my [research](/research/) for more details.
-
-Since late 2021, I have become more serious about one of my other passions, quantum computing. My main interests include exploring quantum machine learning as well as simulation of physical systems in the noisy intermediate-scale quantum (NISQ) era. I have been actively engaged in activities related to quantum computing, where I benefited a lot from getting exposed to cutting-edge research problems in both industry and academia, as well as interacting with experts and fellow students. Here are some highlights:
-
-- 02/22: I became [Qiskit-certified](https://www.credly.com/badges/d8b2f9bb-6e08-410c-89e2-cf98be2cbdd3?source=linked_in_profile)! 
-- 02/22: I completed all the coding challenges in [QHack 2022](/files/QHack_Coding_Challenge_Certificate.pdf) hosted by Xanadu.
-- 04/22: I took part in the 24-hour [QC Hack 2022](/files/QCHack2022_Certificate.pdf) Hackathon and together with four other teammates, we built a prototype of the quantum snakes-and-ladders game and won one of the [Honorable Mentions](https://www.quantumcoalition.io/winners-2022) in the IBM Quantum Challenge.
-- 04/22: I was selected as one of the mentees for the [Quantum Open Source Foundation (QOSF) Mentorship Program](https://qosf.org/qc_mentorship/) and began working on a project on QAOA.
-- 05/22: I completed the [IBM Quantum Spring Challenge 2022](https://www.credly.com/badges/717d9647-4f1e-46c7-8972-79153902efc6?source=linked_in_profile), which I wrote a series of blog posts about. See: [part I](/blog/ibm-spring-challenge-1/), [part II](/blog/ibm-spring-challenge-2/), and [part III](/blog/ibm-spring-challenge-3/).
-- 06/22: I worked as a Quantum Algorithms Research Intern at [Agnostiq](https://agnostiq.ai/) during summer 2022.
-- 08/22: I became a [Qiskit Advocate](https://www.credly.com/badges/53d49104-e640-4c64-a3ea-cd5557665499?source=linked_in_profile)!
-- 09/22: I was selected as a mentee for the [Qiskit Advocate Mentorship Program](https://github.com/qiskit-advocate/qamp-spring-22) and began working on [Qiskit QEC](https://github.com/qiskit-community/qiskit-qec).
-
