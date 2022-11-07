@@ -2,11 +2,12 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 
-# theme = "congo"
+# theme: 'congo'
+baseURL = "https://cgutierr-zgz.github.io/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 15
+paginate = 10
 summaryLength = 0
 
 [outputs]
