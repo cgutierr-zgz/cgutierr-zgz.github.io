@@ -12,7 +12,8 @@ showReadingTime: false
 ---
 
 
-<img src="/img/profile.jpeg" alt="About me" width="30%" style="border-radius: 10%; float: left; margin: 0 5% 0 0;">
+<img src="/about/profile.jpeg" alt="About me" width="30%" style="border-radius: 10%; float: left; margin: 0 5% 0 0;">
+
 {{<lead>}}
 Hi :wave:<br>
 I'm **Carlos**
@@ -28,7 +29,7 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 
 ## Career
 
-<img src="/img/jobs/leadtech.jpeg" alt="LeadTech" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+<img src="/about/jobs/leadtech.jpeg" alt="LeadTech" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
 <kbd>Aug 2022 - Present</kbd><br>**Flutter Developer** · [LeadTech](https://leadtech.com)
 
@@ -47,7 +48,7 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 
 ---
 
-<img src="/img/jobs/publicator.jpeg" alt="The Publicator" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+<img src="/about/jobs/publicator.jpeg" alt="The Publicator" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
 <kbd>May 2022 - Present</kbd><br>**DevOps Engineer** · [The Publicator](https://the-publicator.com)
 
@@ -60,7 +61,7 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 
 ---
 
-<img src="/img/jobs/basf.jpeg" alt="BASF" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+<img src="/about/jobs/basf.jpeg" alt="BASF" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
 <kbd>Aug 2021 - Aug 2022</kbd><br>**Flutter Developer** · [BASF](https://basf.com)
 
@@ -87,7 +88,7 @@ Developed apps:
 
 ---
 
-<img src="/img/jobs/yoda.jpeg" alt="YoDA" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+<img src="/about/jobs/yoda.jpeg" alt="YoDA" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
 <kbd>Feb 2021 - Aug 2021</kbd><br>**Freelance Mobile Developer** · [YoDA](https://yoda.agency)
 
@@ -104,7 +105,7 @@ The app eventually got switched to **Flutter** for Android, iOS, and Web
 
 ---
 
-<img src="/img/jobs/telefonica.jpeg" alt="Telefónica" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+<img src="/about/jobs/telefonica.jpeg" alt="Telefónica" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
 <kbd>Aug 2021 - Aug 2022</kbd><br>**Software Developer** · [Telefónica](https://telefonica.com)
 
@@ -122,7 +123,7 @@ Creation and modifications of Portlets in **Liferay** with **Java**
 
 ---
 
-<img src="/img/jobs/ib.jpeg" alt="Imagina Bienestar" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+<img src="/about/jobs/ib.jpeg" alt="Imagina Bienestar" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
 <kbd>Jan 2019 - Jan 2020</kbd><br>**Unity Developer** · [Imagina Bienestar](https://imaginabienestar.com)
 
@@ -143,7 +144,7 @@ Developed two games and several videos:
 
 ---
 
-<img src="/img/jobs/vanadis.jpeg" alt="Vanadis" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
+<img src="/about/jobs/vanadis.jpeg" alt="Vanadis" width="60px" style="border-radius: 10%; float: left; margin: 10px 5% 0 0;">
 
 <kbd>Mar 2016 - Jun 2016</kbd><br>**Unity Developer** · [Vanadis](https://vanadis.es)
 
