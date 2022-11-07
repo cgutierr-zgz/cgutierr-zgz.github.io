@@ -11,14 +11,25 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "about"
-  pageRef = "about"
+  name = "Docs"
+  pageRef = "docs"
   weight = 10
 
 [[main]]
-  name = "posts"
-  pageRef = "posts"
+  name = "Samples"
+  pageRef = "samples"
   weight = 20
+
+[[main]]
+  name = "Users"
+  pageRef = "users"
+  weight = 30
+  
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/jpanther/congo"
+  weight = 40
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
