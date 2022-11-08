@@ -11,6 +11,8 @@ Built with hugo
 hugo new --kind post posts/my_post.md
 ```
 
+For emojis please refer to: [gitmoji](https://gitmoji.dev)
+
 ## Start Hugo server
 
 ```sh
