@@ -207,7 +207,6 @@ class SettingsPage extends StatelessWidget {
 }
 ```
 
-
 <table>
     <tr>
 		<img src="https://github.com/cgutierr-zgz/stoing_settings_with_hydrated_bloc/blob/main/hydrated_bloc_demo.gif?raw=true" alt="hydated_bloc demo" width="40%" style="border-radius: 1%; float: left; margin: 0 5% 0 0;">
@@ -226,9 +225,11 @@ class SettingsPage extends StatelessWidget {
 In this post, I showed you how to use hydrated_bloc to **update** and **persist** user settings in a Flutter app. I hope you found this post useful. If you have any questions, feel free to leave a comment below.<br>
 Thanks for reading! :nerd_face:
 
-## Dependencies used :package:
+## Extra :gift:
 
-The **pubspec.yaml** file for this project uses the following dependencies:
+The full **source code** with **100% test coverage** :test_tube: for this post is available [here](https://github.com/cgutierr-zgz/stoing_settings_with_hydrated_bloc) :mag:<br>
+
+The **pubspec.yaml** file for this project uses the following dependencies :package:
 
 ```yaml
 dependencies:
@@ -249,15 +250,15 @@ dev_dependencies:
   very_good_analysis: ^3.1.0 # Used to enforce very good practices 🦄
 ```
 
-## Extra :gift:
-
-The full **source code** with **100% test coverage** :test_tube: for this post is available [here](https://github.com/cgutierr-zgz/stoing_settings_with_hydrated_bloc) :mag:<br>
-
 ## References :books:
 
 - [bloc](https://pub.dev/packages/bloc)
+- [equatable](https://pub.dev/packages/equatable)
 - [flutter_bloc](https://pub.dev/packages/flutter_bloc)
 - [hydrated_bloc](https://pub.dev/packages/hydrated_bloc)
 - [hive](https://pub.dev/packages/hive)
 - [path_provider](https://pub.dev/packages/path_provider)
-- [equatable](https://pub.dev/packages/equatable)
+- [bloc_test](https://pub.dev/packages/bloc_test)
+- [mocktail](https://pub.dev/packages/mocktail)
+- [path](https://pub.dev/packages/path)
+- [very_good_analysis](https://pub.dev/packages/very_good_analysis)
