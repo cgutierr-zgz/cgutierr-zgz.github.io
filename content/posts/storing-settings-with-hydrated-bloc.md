@@ -76,7 +76,7 @@ class Settings extends Equatable {
 ```
 
 Now that our user settings are defined, we can create a `SettingsCubit` that extends `HydratedCubit`, this cubit will be responsible for updating and persisting the user settings.<br>
-We will add a `toogleTheme` method to the cubit, that will be used to update the theme:
+We will add a `toggleThemeMode` method to the cubit, that will be used to update the theme:
 
 ```dart
 class SettingsCubit extends HydratedCubit<Settings> {
