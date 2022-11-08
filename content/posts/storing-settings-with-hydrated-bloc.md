@@ -101,6 +101,31 @@ class SettingsCubit extends HydratedCubit<Settings> {
 }
 ```
 
+{{<alert>}}
+**Important**: Persisting multiple instances of the same cubit
+{{</alert>}}
+
+hydrated_bloc has a really cool feature which allows us to override a given `id`, this is useful when we want to have multiple instances of the same cubit. For example, if we want to have a `SettingsCubit` for each user, we can override the `id` property to use the user's id:
+
+{{<highlight dart "hl_lines=12">}}
+// ...
+final carlosCubit = SettingsCubit('carlos');
+final dimaCubit = SettingsCubit('dima');
+// ...
+
+class SettingsCubit extends HydratedCubit<Settings> {
+  SettingsCubit(this._id) : super(const Settings(themeMode: ThemeMode.system));
+
+  final String _id;
+
+  @override
+  String get id => _id;
+  //... other methods
+}
+{{</highlight>}}
+
+
+
 Since the data we want to persist is the user settings is safe to say that providing this at root level is a good idea.<br>
 We can do so by using a `BlocProvider`, thanks to the `flutter_bloc` package _(dont forget to add it to your `pubspec.yaml`)_:
 
