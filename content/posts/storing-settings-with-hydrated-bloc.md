@@ -1,6 +1,6 @@
 ---
 title: "Update and persist user settings with hydrated_bloc"
-date: 2022-11-04
+date: 2022-11-08
 tags: ["flutter", "dart", "bloc", "hydrated_bloc"]
 summary: "How to use hydrated_bloc to update and persist user settings in a Flutter app."
 draft: false
@@ -35,7 +35,7 @@ dependencies:
   hydrated_bloc:
 ```
 
-Then, you need to initialize the storage. You can use the `HydratedStorage.build()` method to create a storage instance. You can then pass this instance to the `HydratedBloc.storage` property.
+Then, you need to initialize the storage. You can use the `HydratedStorage.build()` method to create a storage instance. You can then pass this instance to the `HydratedBloc.storage` property.<br>
 In this example, we will make use of the package `path_provider` to get the path to the app's document directory and the `HydratedStorage.webStorageDirectory` for web. We will then use this paths to initialize the storage:
 
 ```dart
@@ -75,7 +75,8 @@ class Settings extends Equatable {
 }
 ```
 
-Now that our user settings are defined, we can create a `SettingsCubit` that extends `HydratedCubit`, this cubit will be responsible for updating and persisting the user settings.
+Now that our user settings are defined, we can create a `SettingsCubit` that extends `HydratedCubit`, this cubit will be responsible for updating and persisting the user settings.<br>
+We will add a `toogleTheme` method to the cubit, that will be used to update the theme:
 
 ```dart
 class SettingsCubit extends HydratedCubit<Settings> {
@@ -93,7 +94,8 @@ class SettingsCubit extends HydratedCubit<Settings> {
 }
 ```
 
-Since the data we want to persist is the user settings is safe to say that providing this at root level is a good idea, we can do so by using a `BlocProvider`, thanks to the `flutter_bloc` package _(dont forget to add it to your `pubspec.yaml` file)_:
+Since the data we want to persist is the user settings is safe to say that providing this at root level is a good idea.<br>
+We can do so by using a `BlocProvider`, thanks to the `flutter_bloc` package _(dont forget to add it to your `pubspec.yaml`)_:
 
 ```dart
 runApp(
@@ -105,9 +107,68 @@ runApp(
 );
 ```
 
+Having the `SettingsCubit` available at root level, we can now use `context.select` to get the current theme mode and use it to set the theme mode of our app:
 
+```dart
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Hydated Storage Demo',
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark(),
+	  // It only listen to the themeMode of the cubit
+      themeMode: context.select((SettingsCubit c) => c.state.themeMode),
+      home: const SettingsPage(),
+    );
+  }
+}
+```
 
+Finally, let's create a `SettingsPage` that will allow the user to change the theme mode:
+
+```dart
+class SettingsPage extends StatelessWidget {
+  const SettingsPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final themeMode = context.select(
+      (SettingsCubit c) => c.state.themeMode,
+    );
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Settings Page'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('Current theme mode: $themeMode'),
+            ...List.generate(
+              ThemeMode.values.length,
+              (index) {
+                final themeMode = ThemeMode.values[index];
+
+                return ElevatedButton(
+                  onPressed: () =>
+                      context.read<SettingsCubit>().toggleThemeMode(
+                            themeMode,
+                          ),
+                  child: Text(themeMode.name),
+                );
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+```
 
 
 <table>
@@ -117,18 +178,10 @@ runApp(
     <tr>
 		<div>
 			<h3>And... that's it! :tada: :tada: :tada:</h3><br>
-			Our user settings are now persisted to disk and we can use them to update the app's theme, language, etc.
+			Our user settings are now persisted to disk and we could use them to update the app's theme, language, etc.
 		</div>
     </tr>
 </table>
-
-
-
-
-
-
-
-
 
 ## Conclusion :memo:
 
