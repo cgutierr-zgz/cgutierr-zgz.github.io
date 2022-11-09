@@ -44,8 +44,10 @@ To [update](https://jpanther.github.io/congo/docs/installation/#update-using-hug
 
 ```sh
 hugo mod get -u
-```
 
+# You can also run this to delete cache
+hugo mod clean
+```
 
 ## Favicon
 

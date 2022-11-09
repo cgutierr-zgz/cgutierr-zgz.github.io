@@ -7,11 +7,12 @@ draft: false
 showTableOfContents: true
 showEdit: true
 showAuthor: false
+featuredImage: "/posts/hydrated_bloc_thumb.png"
 # externalUrl: "https://www.google.com"
 ---
 
 {{<figure
-    src="https://github.com/cgutierr-zgz/stoing_settings_with_hydrated_bloc/blob/main/hydrated_bloc_logo.png?raw=true"
+    src="/posts/hydrated_bloc_thumb.png"
     alt="Hydrated bloc logo"
     caption="[hydrated_bloc](https://pub.dev/packages/hydrated_bloc) by [Felix Angelov](https://github.com/felangel)"
     class="center_scaled">}}
@@ -209,11 +210,11 @@ class SettingsPage extends StatelessWidget {
 
 <table>
     <tr>
-		<img src="https://github.com/cgutierr-zgz/stoing_settings_with_hydrated_bloc/blob/main/hydrated_bloc_demo.gif?raw=true" alt="hydated_bloc demo" width="40%" style="border-radius: 1%; float: left; margin: 0 5% 0 0;">
+		<img src="/posts/hydrated_bloc_demo.gif" alt="hydated_bloc demo" width="40%" style="border-radius: 1%; float: left; margin: 0 5% 0 0;">
     </tr>
     <tr>
 		<div>
-			<h3>And... that's it! :tada: :tada: :tada:</h3><br>
+			<h3>And... that's it! :tada:</h3><br>
 			Our user settings are now persisted to disk and we could use them to update the app's theme, language, etc.<br><br>
 			Easy, right? :smile:
 		</div>
