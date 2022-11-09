@@ -15,13 +15,6 @@
         {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
       </div>
     </header>
-	{{ if .Params.thumbImage }}
-	{{ $asset := resources.Get .Params.thumbImage }}
-		<img src="{{ $asset.RelPermalink }}"
-		alt="{{ .Title }}"
-		style="object-fit: cover; margin: 0 0 5% 0; width: 35rem;"
-		class="my-0 rounded-md"/>
-	{{ end }} 
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
       {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
         <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
@@ -31,6 +24,13 @@
         </div>
       {{ end }}
       <div class="min-w-0 min-h-0 max-w-prose">
+		{{ if .Params.thumbImage }}
+		{{ $asset := resources.Get .Params.thumbImage }}
+			<img src="{{ $asset.RelPermalink }}"
+			alt="{{ .Title }}"
+			style="object-fit: cover; margin: 5% 0 0 0; width:100;"
+			class="my-0 rounded-md"/>
+		{{ end }} 
         {{ .Content | emojify }}
       </div>
     </section>
