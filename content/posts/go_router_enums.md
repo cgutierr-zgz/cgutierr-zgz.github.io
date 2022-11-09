@@ -75,7 +75,6 @@ Now that we have our enhanced enum, we can use it with [go_router](https://pub.d
 Let's first add the `go_router` dependency to our `pubspec.yaml`:
 
 ```yml
-
 dependencies:
   go_router: ^5.1.5
 ```
@@ -186,12 +185,14 @@ enum AppRoutes {
 }
 ```
 
-And now we can use it like this:
+And now we can easily navigate to our with the use of our new methods:
 
 ```dart
 //...
 TextButton(
   onPressed: () => AppRoutes.home.go(context),
+  // onPressed: () => AppRoutes.home.push(context),
+  // onPressed: () => AppRoutes.home.replace(context),
   child: Text('Home'),
 ),
 //...
