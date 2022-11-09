@@ -223,7 +223,10 @@ class SettingsPage extends StatelessWidget {
 
 ## Conclusion :memo:
 
-In this post, I showed you how to use hydrated_bloc to **update** and **persist** user settings in a Flutter app. I hope you found this post useful. If you have any questions, feel free to leave a comment below.<br>
+In this post, I showed you how to use hydrated_bloc to **update** and **persist** user settings in a Flutter app. I hope you found this post useful.
+
+I hope you enjoyed it and that you found it useful.<br>
+If you have any questions or suggestions, feel free to **leave a comment** below. :smile:<br>
 Thanks for reading! :nerd_face:
 
 ## Extra :gift:

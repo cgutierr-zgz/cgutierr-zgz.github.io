@@ -11,7 +11,8 @@ Built with hugo
 hugo new --kind post posts/my_post.md
 ```
 
-For emojis please refer to: [gitmoji](https://gitmoji.dev)
+For emojis please refer to: [gitmoji](https://gitmoji.dev), or this [cheatsheet](https://www.webfx.com/tools/emoji-cheat-sheet)
+For thumbnails please refer to: [Snappa](https://snappa.com)
 
 ## Start Hugo server
 
