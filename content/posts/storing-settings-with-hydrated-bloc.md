@@ -7,16 +7,10 @@ draft: false
 showTableOfContents: true
 showEdit: true
 showAuthor: false
-featuredImage: "/posts/hydrated_bloc_thumb.png"
+thumbImage: "/posts/hydrated_bloc_thumb.png"
 # externalUrl: "https://www.google.com"
 ---
-
-{{<figure
-    src="/posts/hydrated_bloc_thumb.png"
-    alt="Hydrated bloc logo"
-    caption="[hydrated_bloc](https://pub.dev/packages/hydrated_bloc) by [Felix Angelov](https://github.com/felangel)"
-    class="center_scaled">}}
-
+[hydrated_bloc](https://pub.dev/packages/hydrated_bloc) by [Felix Angelov](https://github.com/felangel)
 
 {{<lead>}}
 In this post, I'll show you how to use [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) to update and persist user settings like theme, language, etc. in a Flutter app.<br>

@@ -22,10 +22,10 @@
 		  class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
 		  href="{{ .RelPermalink }}"
 		  >
-		  {{ if .Params.featuredImage }}
-		  	{{ $asset := resources.Get .Params.featuredImage }}
-			  <img src="{{ $asset.RelPermalink }}" alt="{{ .Title }}" style="width: 24rem; height: 12rem; object-fit: cover;" class="rounded-md">
-		  {{ end }} 
+		{{ if .Params.thumbImage }}
+			{{ $asset := resources.Get .Params.thumbImage }}
+				<img src="{{ $asset.RelPermalink }}" alt="{{ .Title }}" style="width: 24rem; height: 12rem; object-fit: cover;" class="rounded-md">
+		{{ end }} 
 		  {{ .Title | emojify }}
 		  </a
 		>

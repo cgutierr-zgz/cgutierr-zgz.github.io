@@ -7,16 +7,11 @@ draft: false
 showTableOfContents: true
 showEdit: true
 showAuthor: false
-featuredImage: "/posts/go_router_enums_thumb.png"
+thumbImage: "/posts/go_router_enums_thumb.png"
 # externalUrl: "https://www.google.com"
 ---
 
-{{<figure
-    src="/posts/go_router_enums_thumb.png"
-    alt="Post thumnail - Enums and go_router"
-    caption="[go_router](https://pub.dev/packages/go_router) by [Flutter.dev](https://pub.dev/publishers/flutter.dev/packages)"
-    class="center_scaled">}}
-
+[go_router](https://pub.dev/packages/go_router) by [Flutter.dev](https://pub.dev/publishers/flutter.dev/packages)
 
 {{<lead>}}
 In this post I want to show how I like to use the new **enhanced enums** with **go_router**.
