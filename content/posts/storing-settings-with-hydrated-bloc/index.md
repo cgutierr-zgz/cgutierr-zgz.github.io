@@ -204,7 +204,7 @@ class SettingsPage extends StatelessWidget {
 
 <table>
     <tr>
-		<img src="/posts/hydrated_bloc_demo.gif" alt="hydated_bloc demo" width="40%" style="border-radius: 1%; float: left; margin: 0 5% 0 0;">
+		<img src="hydrated_bloc_demo.gif" alt="hydated_bloc demo" width="40%" style="border-radius: 1%; float: left; margin: 0 5% 0 0;">
     </tr>
     <tr>
 		<div>
