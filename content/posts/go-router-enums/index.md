@@ -46,7 +46,7 @@ Now that we have our enum, we can **enhance** it to define our routes, views, et
 
 ```dart
 enum AppRoutes {
-  login('login', LoginPage()),
+  login('/login', LoginPage()),
   home('/home', HomePage()),
   settings('/settings', SettingsPage()); // Don't forget to add the semicolon here :)
 
