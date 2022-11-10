@@ -17,6 +17,8 @@ enableCodeCopy = true
 
 [header]
   layout = "hamburger" # valid options: basic, hamburger, custom
+  showTitle = false
+  logo = "/logo.png"
 
 [footer]
   showCopyright = true

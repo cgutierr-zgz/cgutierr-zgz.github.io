@@ -1,10 +1,10 @@
 {{ define "main" }}
+  {{- $images := .Resources.ByType "image" }}
+  {{- $cover := $images.GetMatch "*cover*" }}
+  {{- $feature := $images.GetMatch "*feature*" | default $cover }}
   <article>
     <header class="max-w-prose">
-		{{ if .Params.thumbImage }}
-			{{ $ogImage := resources.Get .Params.thumbImage }}
-				<meta property="og:image" content="{{ $ogImage.RelPermalink | absURL }}" />
-		{{ end }} 
+	  <meta property="og:image" content="{{ $feature.RelPermalink | absURL }}" />
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
@@ -14,6 +14,17 @@
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
       </div>
+      {{ with $feature }}
+        <img
+          class="mb-6 -mt-4 rounded-md"
+          srcset="
+                {{- (.Resize "330x").RelPermalink }} 330w,
+                {{- (.Resize "660x").RelPermalink }} 660w,
+                {{- (.Resize "1024x").RelPermalink }} 1024w,
+                {{- (.Resize "1320x").RelPermalink }} 2x"
+          src="{{ (.Resize "660x").RelPermalink }}"
+        />
+      {{ end }}
     </header>
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
       {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
@@ -23,14 +34,7 @@
           </div>
         </div>
       {{ end }}
-      <div class="min-w-0 min-h-0 max-w-prose">
-		{{ if .Params.thumbImage }}
-		{{ $asset := resources.Get .Params.thumbImage }}
-			<img src="{{ $asset.RelPermalink }}"
-			alt="{{ .Title }}"
-			style="object-fit: cover; margin: 5% 0 0 0; width:100;"
-			class="my-0 rounded-md"/>
-		{{ end }} 
+      <div class="min-w-0 min-h-0 max-w-prose grow">
         {{ .Content | emojify }}
       </div>
     </section>
