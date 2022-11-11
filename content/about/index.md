@@ -5,7 +5,7 @@ summary: "About me"
 draft: false
 showTableOfContents: false
 showEdit: false
-showAuthor: false
+showAuthor: true
 showComments: false
 showReadingTime: false
 # externalUrl: "https://www.google.com"
