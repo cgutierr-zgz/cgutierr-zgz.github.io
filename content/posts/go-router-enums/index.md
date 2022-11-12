@@ -6,7 +6,7 @@ summary: "How to use enhanced enums with go_router to create a more type-safe na
 draft: false
 showTableOfContents: true
 showEdit: true
-showAuthor: false
+showAuthor: true
 # externalUrl: "https://www.google.com"
 ---
 

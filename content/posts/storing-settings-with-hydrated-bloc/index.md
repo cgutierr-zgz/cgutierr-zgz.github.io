@@ -6,8 +6,7 @@ summary: "How to use hydrated_bloc to update and persist user settings in a Flut
 draft: false
 showTableOfContents: true
 showEdit: true
-showAuthor: false
-thumbImage: "/posts/hydrated_bloc_thumb.png"
+showAuthor: true
 # externalUrl: "https://www.google.com"
 ---
 [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) by [Felix Angelov](https://github.com/felangel)
