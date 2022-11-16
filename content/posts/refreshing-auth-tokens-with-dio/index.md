@@ -45,7 +45,7 @@ dependencies:
 ```
 
 The `dio_smart_try` and `pretty_dio_logger` packages are optional, but I'll be using them in this post, it's an **easy way to log the requests and responses** and to **retry failed requests**, but we will make our own retry interceptor for the refresh token part.<br>
-I also make use of `flutter_appauth` and `flutter_secure_storage` in the example found in the repo.
+I also make use of `flutter_appauth` and `flutter_secure_storage` in the example found in the [repo](https://github.com/cgutierr-zgz/dio-intercetors-loggers).
 
 ## Making our custom dio client :rocket:
 
