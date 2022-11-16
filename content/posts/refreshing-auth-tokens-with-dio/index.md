@@ -1,6 +1,6 @@
 ---
 title: "Refreshing Auth tokens with dio interceptors"
-date: 2022-11-15
+date: 2022-11-16
 tags: ["flutter", "dart", "dio", "interceptors", "retry", "logger"]
 summary: "Learn how to use dio and interceptors to refresh tokens and retry failed requests in a Flutter app."
 draft: false
