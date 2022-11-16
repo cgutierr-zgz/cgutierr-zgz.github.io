@@ -222,8 +222,6 @@ I hope you enjoyed it and that you found it useful.<br>
 If you have any questions or suggestions, feel free to **leave a comment** below. :smile:<br>
 Thanks for reading! :nerd_face:
 
-## Extra :gift:
-
 The full **source code** with **100% test coverage** :test_tube: for this post is available [here](https://github.com/cgutierr-zgz/stoing_settings_with_hydrated_bloc) :mag:<br>
 
 The **pubspec.yaml** file for this project uses the following dependencies :package:

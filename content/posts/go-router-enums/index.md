@@ -203,8 +203,6 @@ I hope you enjoyed it and that you found it useful.<br>
 If you have any questions or suggestions, feel free to **leave a comment** below. :smile:<br>
 Thanks for reading! :nerd_face:
 
-## Extra :gift:
-
 The full **source code** with **94.5% test coverage** :test_tube: for this post is available [here](https://github.com/cgutierr-zgz/enhanced_enums_and_go_router) :mag:<br>
 Sorry, I couldn't get it to 100% :sweat_smile: I don't really know how to test the **pageBuilder**, but feel free to open a PR if you know how to do it :wink:
 
