@@ -215,15 +215,17 @@ The `onRequest` method will be used to add the `Authorization` header to the req
 Let's now have a look at the implementation of the `onRequest` method:
 
 ```dart
-// We add the accessToken to the headers if it's not null
-final accessToken = await _secureStorage.read(key: _accessTokenKey);
+onRequest: (request, handler) async {
+  // We add the accessToken to the headers if it's not null
+  final accessToken = await _secureStorage.read(key: _accessTokenKey);
 
-if (accessToken != null) {
-  request.headers['Authorization'] = 'Bearer $accessToken';
-}
-debugPrint('[DIO]: Added accessToken [${accessToken != null}]');
+  if (accessToken != null) {
+    request.headers['Authorization'] = 'Bearer $accessToken';
+  }
+  debugPrint('[DIO]: Added accessToken [${accessToken != null}]');
 
-return handler.next(request);
+  return handler.next(request);
+},
 ```
 
 Here we basically get the `accessToken` from the `FlutterSecureStorage` and add it to the request headers if it's not null, then we call the `handler.next(request)` method to continue with the request.<br>
