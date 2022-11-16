@@ -28,6 +28,14 @@ I'm a **passionate** software developer from **Spain** mainly focused on **Mobil
 
 I'm looking forward **collaborating** in **open source projects** and **sharing** my **knowledge** with the community.
 
+## Hobbies :video_game:
+
+- 🚴‍♀️ **Cycling** and **swimming** 
+- 🐶 I have two dogs, named **Laisa** and **Phoebe**
+- 🐢 I have four turtles, named **Cristina**, **Casemira**, **Victor**, **Cloe** and **Paqui**
+- 🇪🇸 I was born in **Zaragoza**, Spain
+- 🎤 I love **singing**, take me to karaoke!
+
 ## Skills :computer:
 
 {{<skills>}}dart{{</skills>}}

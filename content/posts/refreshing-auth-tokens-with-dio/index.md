@@ -229,7 +229,7 @@ onRequest: (request, handler) async {
 ```
 
 Here we basically get the `accessToken` from the `FlutterSecureStorage` and add it to the request headers if it's not null, then we call the `handler.next(request)` method to continue with the request.<br>
-Like this we do not have to add the `Authorization` header to every request we make, we just have to add the `DioClient` instance to the `AuthProvider` class and we are good to go :smile:.
+Like this we do not have to add the `Authorization` header to every request we make, we just have to add the `DioClient` instance to the `AuthProvider` class and we are good to go :smile:
 
 ---
 
@@ -271,7 +271,7 @@ onError: (e, handler) async {
 
 Here we check if the status code of the response is 401, which, for our case, means that the token has expired, then we call the `refreshTokens` method to refresh the token, and we add the new `accessToken` to the request headers, then we create a new request with the new `accessToken` and we return the response to the caller.<br>
 
-Voilà, we have a working interceptor that refreshes the token when it expires :tada:.
+Voilà, now we have a working interceptor that not only refreshes the token when it expires, but also adds the `accessToken` to the request headers, so we don't have to :tada:
 
 ## Conclusion :memo:
 
