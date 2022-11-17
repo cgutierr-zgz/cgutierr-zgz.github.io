@@ -32,7 +32,7 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 
 - 🚴‍♀️ **Cycling** and **swimming** 
 - 🐶 I have two dogs, named **Laisa** and **Phoebe**
-- 🐢 I have four turtles, named **Cristina**, **Casemira**, **Victor**, **Cloe** and **Paqui**
+- 🐢 I have five turtles, named **Cristina**, **Casemira**, **Victor**, **Cloe** and **Paqui**
 - 🇪🇸 I was born in **Zaragoza**, Spain
 - 🎤 I love **singing**, take me to karaoke!
 
