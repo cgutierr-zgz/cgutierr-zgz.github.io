@@ -241,7 +241,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   mocktail: ^0.3.0 # Used to mock the storage
-  path: ^1.8.2 # Used to create a mock storage
   very_good_analysis: ^3.1.0 # Used to enforce very good practices 🦄
 ```
 
