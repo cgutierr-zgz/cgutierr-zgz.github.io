@@ -28,7 +28,7 @@ I'm a **passionate** software developer from **Spain** mainly focused on **Mobil
 
 I'm looking forward **collaborating** in **open source projects** and **sharing** my **knowledge** with the community.
 
-## Hobbies :video_game:
+## Some more info :clipboard:
 
 - 🚴‍♀️ **Cycling** and **swimming** 
 - 🐶 I have two dogs, named **Laisa** and **Phoebe**
