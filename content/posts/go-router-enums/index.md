@@ -7,6 +7,7 @@ draft: false
 showTableOfContents: true
 showEdit: true
 showAuthor: true
+sourceCode: "https://github.com/cgutierr-zgz/enhanced_enums_and_go_router"
 # externalUrl: "https://www.google.com"
 ---
 

@@ -7,6 +7,7 @@ draft: false
 showTableOfContents: true
 showEdit: true
 showAuthor: true
+sourceCode: "https://github.com/cgutierr-zgz/stoing_settings_with_hydrated_bloc"
 # externalUrl: "https://www.google.com"
 ---
 [hydrated_bloc](https://pub.dev/packages/hydrated_bloc) by [Felix Angelov](https://github.com/felangel)
