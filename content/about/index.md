@@ -81,7 +81,7 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 
 <img src="/about/jobs/telefonica.jpeg" alt="Telefónica" width="60px" class="rounded-md" style="float: left; margin: 10px 5% 0 0;">
 
-<kbd>Aug 2021 - Aug 2022</kbd><br>**Software Developer** · [Telefónica](https://telefonica.com)
+<kbd>Oct 2020 - Jun 2021</kbd><br>**Software Developer** · [Telefónica](https://telefonica.com)
 
 
 <img src="/about/jobs/ib.jpeg" alt="Imagina Bienestar" width="60px" class="rounded-md" style="float: left; margin: 10px 5% 0 0;">
