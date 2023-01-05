@@ -30,10 +30,10 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 
 ## Some more info :clipboard:
 
-- 🚴‍♀️ **Cycling** and **swimming** 
-- 🐶 I have two dogs, named **Laisa** and **Phoebe**
-- 🐢 I have five turtles, named **Cristina**, **Casemira**, **Victor**, **Cloe** and **Paqui**
-- 🇪🇸 I was born in **Zaragoza**, Spain
+- 🚴‍♀️ **Cycling** and **swimming**
+- 🐶 Proud owner of two dogs, **Laisa** and **Phoebe**
+- 🐢 My turtle squad: **Cristina**, **Casemira**, **Victor**, **Cloe** and **Paqui**
+- 🇪🇸 Born in **Zaragoza** and raised in **Madrid**, hola!
 - 🎤 I love **singing**, take me to karaoke!
 
 ## Skills :computer:
