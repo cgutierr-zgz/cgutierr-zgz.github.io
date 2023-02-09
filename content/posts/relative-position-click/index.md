@@ -13,6 +13,7 @@ sourceCode: "https://github.com/cgutierr-zgz/position_relative_to_widget"
 
 {{<lead>}}
 I've recently had an usecase that I never had before: I needed to -based on a given widget- retrieve the relative position of a click on that widget and make an action based on that position.
+<br>
 It might be a super simple usecase, but I never had to do it before, so I found it interesting to share it with you! :smile:
 {{</lead>}}
 
