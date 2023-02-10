@@ -21,7 +21,8 @@ It might be a super simple usecase, but I never had to do it before, so I found 
 
 I started by using the current context's size to calculate the position of the click
 
-```dart  @override
+{{<highlight dart "hl_lines=3">}}
+@override
 Widget build(BuildContext context) {
   final size = MediaQuery.of(context).size;
   return GestureDetector(
@@ -45,7 +46,7 @@ Widget build(BuildContext context) {
   );
 }
 // ...
-```
+{{</highlight>}}
 
 Ok, this works... for a widget that takes the whole screen.
 
@@ -63,7 +64,7 @@ The [RenderBox](https://api.flutter.dev/flutter/rendering/RenderBox-class.html) 
 
 So, we can use the [RenderBox.localToGlobal](https://api.flutter.dev/flutter/rendering/RenderBox/localToGlobal.html) method to get the position of the widget on the screen and then calculate the relative position of the click on that widget.
 
-```dart
+{{<highlight dart "hl_lines=5">}}
 @override
 Widget build(BuildContext context) {
   return GestureDetector(
@@ -88,7 +89,7 @@ Widget build(BuildContext context) {
 	},
   );
 }
-```
+{{</highlight>}}
 
 <img src="render-box-good.gif" alt="good-click" width="40%" style="border-radius: 1%; margin: 0 5% 0 0;">
 
