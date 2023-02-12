@@ -12,6 +12,25 @@ sourceCode: "https://github.com/cgutierr-zgz/dio-intercetors-loggers"
 ---
 [dio](https://pub.dev/packages/dio) by [Flutterchina](https://flutterchina.club)
 
+
+{{<alert>}}
+**Important Note:** This post was made before [wendux](https://github.com/wendux) announced [here](https://github.com/flutterchina/dio/commit/a6fc5e1e8e671dfa131914461283c45754095276) he was going to stop maintaining the package.<br>
+_I'll try to make a new post using [http](https://pub.dev/packages/http) if I have the time._ :sweat_smile:<br>
+Anyway, theres a hard fork of dio called [diox](https://pub.dev/packages/diox) that you can use as a fork of dio to follow along with this post,
+
+You can do so by updating your `pubspec.yaml` file:
+```yaml
+dependency_overrides:
+  dio:
+    git:
+      url: https://github.com/cfug/diox
+      path: dio/
+      ref: dio
+```
+
+or by using the [diox](https://pub.dev/packages/diox) package directly:
+{{</alert>}}
+
 {{<lead>}}
 In this post, I'll show you how to use dio to make HTTP requests and how to use interceptors to refresh tokens and retry failed requests, everything while easily logging the requests and responses.
 {{</lead>}}
