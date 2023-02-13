@@ -7,3 +7,4 @@ state management popularity(Charts)/fanaticism/getx/etc...
 flutter web loading times
 bloc explanained simply
 architecture
+notifications (Sound, etc... local/remote...)
