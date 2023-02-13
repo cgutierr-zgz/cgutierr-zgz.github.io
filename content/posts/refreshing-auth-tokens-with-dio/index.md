@@ -16,7 +16,7 @@ sourceCode: "https://github.com/cgutierr-zgz/dio-intercetors-loggers"
 {{<alert>}}
 **Important Note:** This post was made before [wendux](https://github.com/wendux) announced [here](https://github.com/flutterchina/dio/commit/a6fc5e1e8e671dfa131914461283c45754095276) he was going to stop maintaining the package.<br>
 _I'll try to make a new post using [http](https://pub.dev/packages/http) if I have the time._ :sweat_smile:<br>
-Anyway, theres a hard fork of dio called [diox](https://pub.dev/packages/diox) that you can use as a fork of dio to follow along with this post,
+Anyway, theres a hard fork of dio called [diox](https://pub.dev/packages/diox) that you can use to follow along with this post,
 
 You can do so by updating your `pubspec.yaml` file:
 ```yaml
