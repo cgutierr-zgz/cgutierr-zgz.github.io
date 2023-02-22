@@ -1,5 +1,5 @@
 ---
-title: "ColorFiltered saved my day - Making a custom border shape in Flutter"
+title: "Making a custom border shape in Flutter with ColorFiltered"
 date: 2023-02-10
 tags: ["flutter", "dart", "border", "shape", "custom"]
 summary: "Creating a custom border shape in Flutter is not as easy as it seems. In this post, I'll show you how to achieve it."
