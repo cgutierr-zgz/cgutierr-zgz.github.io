@@ -66,7 +66,7 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 
 <img src="/about/jobs/publicator.jpeg" alt="The Publicator" width="60px" class="rounded-md" style="float: left; margin: 10px 5% 0 0;">
 
-<kbd>May 2022 - Present</kbd><br>**Freelance DevOps Engineer** · [The Publicator](https://the-publicator.com)
+<kbd>May 2022 - Mar 2023</kbd><br>**Freelance DevOps Engineer** · [The Publicator](https://the-publicator.com)
 
 
 <img src="/about/jobs/basf.jpeg" alt="BASF" width="60px" class="rounded-md" style="float: left; margin: 10px 5% 0 0;">
