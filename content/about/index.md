@@ -64,9 +64,9 @@ I'm looking forward **collaborating** in **open source projects** and **sharing*
 <kbd>Aug 2022 - Present</kbd><br>**Flutter Developer** · [LeadTech](https://leadtech.com)<br>
 
 
-<img src="/about/jobs/publicator.jpeg" alt="The Publicator" width="60px" class="rounded-md" style="float: left; margin: 10px 5% 0 0;">
+<img src="/about/jobs/berger.jpeg" alt="Berger Studios" width="60px" class="rounded-md" style="float: left; margin: 10px 5% 0 0;">
 
-<kbd>May 2022 - Apr 2023</kbd><br>**Freelance DevOps Engineer** · [The Publicator](https://the-publicator.com)
+<kbd>May 2022 - Mar 2023</kbd><br>**Freelance Software Developer** · [Berger Studios]https://berger-studios.de/)
 
 
 <img src="/about/jobs/basf.jpeg" alt="BASF" width="60px" class="rounded-md" style="float: left; margin: 10px 5% 0 0;">
