@@ -1,15 +1,17 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
 
 title = "cgutierr-zgz"
-description = "Carlos Gutiérrez - Software Developer"
-# copyright = "Copy, _right?_ :thinking_face:"
 
-dateFormat = "2 January 2006"
+[params]
+  description = "Carlos Gutiérrez - Software Developer"
+  dateFormat = "2 January 2006"
+  rtl = false
+  isoCode = "en"
+  displayName = "EN"
+
+# copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
   name = "Carlos Gutiérrez"
