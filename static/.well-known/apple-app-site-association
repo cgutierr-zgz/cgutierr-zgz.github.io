@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "5MTVHWJ457.mobile.app.tools.translator",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
